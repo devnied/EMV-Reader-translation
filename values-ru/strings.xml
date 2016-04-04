@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Считыватель банковских карт</string>
+    <string name="app_name_pro">Считыватель банковских карт Pro</string>
+    <string name="activity_name">Считыватель банковских карт</string>
+
+    <!-- Msg -->
+    <string name="billing_success">Спасибо за пожертвование!</string>
+    <string name="card_read">Карта прочитана</string>
+    <string name="card_reading">Карта считывается&#8230;</string>
+    <string name="card_deleted">Данные карты удалены</string>
+    <string name="card_reading_desc">Не убирайте и не двигайте карту, пока она считывается.</string>
+    <string name="nfc_locked">На вашей карте заблокирован NFC или она не активирована</string>
+    <string name="msg_nfc_available">Это устройство не имеет NFC, которая необходима для запуска этого приложения.</string>
+    <string name="msg_nfc_disable">Включите NFC и нажмите клавишу назад, чтобы вернуться к этому приложению.</string>
+    <string name="msg_activate_nfc">Ok</string>
+    <string name="msg_info">Информация</string>
+    <string name="donate_banner">Сделайте пожертвование, помогите развитию приложения!</string>
+
+    <!-- Error -->
+    <string name="error_communication_nfc">Попробуйте еще раз, не двигая карту!</string>
+    <string name="error_card_unknown">Карта не поддерживается</string>
+    <string name="error_link">Не найден веб-браузер</string>
+    <string name="error_email">Не найден почтовый клиент</string>
+
+    <!-- Tabs -->
+    <string name="viewpager_carddetail">Карты</string>
+    <string name="viewpager_transactions">Транзакции</string>
+    <string name="viewpager_log">Журнал</string>
+
+    <!-- Card Detail -->
+    <string name="paycard_back_text">Приложите вашу NFC карту \n к задней стенке телефона</string>
+    <string name="extended_card_detail_title">Расширенная информация о карте</string>
+    <string name="card_representation_title">Представление карты</string>
+    <string name="extended_share">Поделиться</string>
+    <string name="buy_pro_dialog">
+        <![CDATA[
+        Эта бесплатная версия приложения может считывать данные только одной карты, данные предыдущей удаляются.<br /><br />
+        <b><u>Версия Pro</u></b><br /><br />
+         \u2022 Считывает несколько карт<br />
+         \u2022 Сохраняет карты<br />
+         \u2022 Считывает приложения<br />
+         \u2022 Данные 1 и 2 дорожек<br />
+         \u2022 Расширенный журнал<br />
+         \u2022 Экспорт данных
+         ]]>
+    </string>
+    <string name="buy_pro_button">Купить версию Pro</string>
+
+    <string name="extended_title_AID">AID карты:</string>
+    <string name="extended_title_application_label">Приложение:</string>
+    <string name="extended_title_pin_try">Попыток ввода ПИН:</string>
+    <string name="extended_title_card_type">Тип карты:</string>
+    <string name="extended_card_holder_name">Владелец:</string>
+    <string name="extended_title_possible_bank">Эмитент:\n(возможный)</string>
+    <string name="extended_title_times">раз</string>
+    <string name="extended_track2_title">Дорожка 2</string>
+    <string name="extended_track2_expire">Срок действия:</string>
+    <string name="extended_track2_card_number">Номер:</string>
+    <string name="extended_track2_card_service">Сервисный код:</string>
+    <string name="extended_track1_title">Дорожка 1</string>
+    <string name="extended_track1_format">Формат:</string>
+    <string name="extended_application_title">Приложение</string>
+    <string name="extended_application_number">Номер приложения:</string>
+    <string name="extended_application_AID">AID:</string>
+    <string name="extended_application_priority">Приоритет:</string>
+    <string name="extended_application_label">Название:</string>
+    <string name="extended_application_transaction">Счетчик транзакций:</string>
+    <string name="extended_application_pin_try">Попыток ввода ПИН:</string>
+
+    <!-- Transaction -->
+    <string name="transaction_empty">Ваша карта не предоставляет\nинформацию о транзакциях</string>
+
+    <!-- Transaction detail -->
+    <string name="transaction_type">Тип транзакции:</string>
+    <string name="transaction_cryptogram">Криптограмма:</string>
+    <string name="transaction_country">Страна:</string>
+    <string name="transaction_unknown">Неизвестно</string>
+
+    <!-- Transaction type -->
+    <string name="transaction_type_0">Покупка</string>
+    <string name="transaction_type_1">Снятие наличных</string>
+    <string name="transaction_type_9">Взнос наличных</string>
+    <string name="transaction_type_32">Возврат</string>
+    <string name="transaction_type_254">нагруженный</string>
+    <string name="transaction_type_255">Выгрузка</string>
+
+    <!-- Logs -->
+    <string name="mail_subject">[EMV Reader] Log report</string>
+    <string name="mail_popup_title">Отправка журналов</string>
+    <string name="mail_to">android@julien-millau.fr</string>
+    <string name="log_dialog_cancel">Отмена</string>
+    <string name="log_dialog_ok">Ok</string>
+    <string name="log_dialog">Сделайте пожертвование для просмотра декодированных данных</string>
+
+
+    <!-- About -->
+    <string name="about_app_detail">Это приложение считывает открытую информацию с NFC банковских карт, соответсвующих спецификации EMV.</string>
+    <string name="about_source_detail">Исходный код и документация доступны на <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Приложение создал <a href="http://julien-millau.fr">Жюльен Мийо</a>
+    \n\n Перевод на русский: Александр Кузьмин
+    </string>
+    <string name="about_inapp_text">Помогите развитию приложения, сделайте пожертвование</string>
+    <string name="donation_thanks">Спасибо за пожертвование</string>
+    <string name="about_pro_app">Считывает несколько карт, Извлекает больше данных, Экспорт данных 1 и 2 дорожек, ...</string>
+    <string name="about_title">О приложении</string>
+    <string name="about_inApp">Пожертвовать</string>
+
+    <!-- Navigation drawable -->
+    <string name="navigation_menu_open">Открыть меню</string>
+    <string name="navigation_menu_close">Закрыть меню</string>
+    <string name="navigation_card_details">Карты</string>
+    <string name="navigation_settings">Настройки</string>
+    <string name="navigation_about">О приложении</string>
+
+    <!-- App rating  -->
+    <string name="dialog_text">Пожалуйста, оцените это приложение. Спасибо за поддержку!</string>
+    <string name="dialog_header">Оценить приложение</string>
+    <string name="rate">Да</string>
+    <string name="no">Нет</string>
+    <string name="dontask">Больше не спрашивать</string>
+
+    <!-- Preferences -->
+    <string name="storage_category">Хранение</string>
+    <string name="appearance_category">Внешний вид</string>
+    <string name="pref_remove_all_stored_cards">Удалить сохранённые данные</string>
+    <string name="pref_hide_card_number">Скрыть номер карты</string>
+    <string name="pref_hide_card_number_on">Номер карты скрыт</string>
+    <string name="pref_hide_card_number_off">Номер карты отображается</string>
+    <string name="pref_expend_logs">Расширенный журнал</string>
+    <string name="pref_expend_logs_on">Расширенный журнал отображается</string>
+    <string name="pref_expend_logs_off">Расширенный журнал скрыт</string>
+
+    <string name="general_category">Общие</string>
+    <string name="pref_nfc_listener_title">Запуск приложения с помощью NFC</string>
+    <string name="pref_nfc_listener_on">Запуск активирована</string>
+    <string name="pref_nfc_listener_off">Запуск отключена</string>
+
+    <string name="compatibility_mode">Попробуйте использовать режим совместимости\nесли возникает ошибка (Настройки > Режим считывания)</string>
+    <string name="reader_mode_category">Режим считывания</string>
+    <string name="pref_activate_old_mode">Включить режим совместимости</string>
+    <string name="pref_activate_old_mode_on">Режим совместимости включен</string>
+    <string name="pref_activate_old_mode_off">Режим совместимости выключен</string>
+    <string name="feedback_text">Обратная связь или отправка отчетов</string>
+    <string name="transaction_time">время торговли :</string>
+</resources>

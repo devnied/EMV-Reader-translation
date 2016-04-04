@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Czytnik kart bankowych</string>
+    <string name="app_name_pro">Czytnik kart bankowych Pro</string>
+    <string name="activity_name">Czytnik kart bankowych</string>
+
+    <!-- Msg -->
+    <string name="billing_success">Dziękuję za wsparcie!</string>
+    <string name="card_read">Odczyt karty</string>
+    <string name="card_reading">Trwa odczyt danych z karty&#8230;</string>
+    <string name="card_deleted">Dane karty usunięte</string>
+    <string name="card_reading_desc">Proszę nie usuwać, ani przesuwać karty podczas odczytu.</string>
+    <string name="nfc_locked">NFC jest zablokowane na karcie albo karta nie została aktywowana</string>
+    <string name="msg_nfc_available">To urządzenie nie posiada NFC, które są wymagane do uruchomienia tej aplikacji.</string>
+    <string name="msg_nfc_disable">Proszę włączyć NFC i nacisnąć wstecz, aby wrócić do tej aplikacji.</string>
+    <string name="msg_activate_nfc">OK</string>
+    <string name="msg_info">Informacje</string>
+    <string name="donate_banner">Pomóż nam ulepszyć tę aplikację, wesprzyj nas!</string>
+
+    <!-- Error -->
+    <string name="error_communication_nfc">Proszę nie przesuwać karty, spróbuj jeszcze raz!</string>
+    <string name="error_card_unknown">Karta nie jest obsługiwana</string>
+    <string name="error_link">Nie znaleziono przeglądarki internetowej</string>
+    <string name="error_email">Nie znaleziono klienta poczty</string>
+
+    <!-- Tabs -->
+    <string name="viewpager_carddetail">Szczegóły karty</string>
+    <string name="viewpager_transactions">Transakcje</string>
+    <string name="viewpager_log">Dziennik</string>
+
+    <!-- Card Detail -->
+    <string name="paycard_back_text">Przyłóż zbliżeniową kartę płatniczą \n z tyłu Twojego telefonu</string>
+    <string name="extended_card_detail_title">Rozszerzone dane karty</string>
+    <string name="card_representation_title">Podgląd karty</string>
+    <string name="extended_share">Udostępnij</string>
+    <string name="buy_pro_dialog">
+        <![CDATA[
+        Korzystając z darmowej wersji możesz odczytać tylko jedną kartę, wcześniej odczytane dane zostały usunięte.<br /><br />
+        <b><u>Wersja Pro</u></b><br /><br />
+         \u2022 Odczyt wielu kart<br />
+         \u2022 Przechowanie danych kart<br />
+         \u2022 Odczyt aplikacji<br />
+         \u2022 Dane ze ścieżki 1&amp;2<br />
+         \u2022 Rozszerzona historia<br />
+         \u2022 Eksport danych
+         ]]>
+    </string>
+    <string name="buy_pro_button">Kup wersję Pro</string>
+
+    <string name="extended_title_AID">AID karty:</string>
+    <string name="extended_title_application_label">Aplikacja :</string>
+    <string name="extended_title_pin_try">Pozostało prób PIN :</string>
+    <string name="extended_title_card_type">Typ karty :</string>
+    <string name="extended_card_holder_name">Właściciel :</string>
+    <string name="extended_title_possible_bank">Wydawca karty :\n(możliwy)</string>
+    <string name="extended_title_times">Raz(y)</string>
+    <string name="extended_track2_title">Ścieżka 2</string>
+    <string name="extended_track2_expire">Wygasa :</string>
+    <string name="extended_track2_card_number">Numer karty :</string>
+    <string name="extended_track2_card_service">Serwis :</string>
+    <string name="extended_track1_title">Ścieżka 1</string>
+    <string name="extended_track1_format">Format :</string>
+    <string name="extended_application_title">Aplikacja</string>
+    <string name="extended_application_number">Numer aplikacji :</string>
+    <string name="extended_application_AID">AID :</string>
+    <string name="extended_application_priority">Priorytet :</string>
+    <string name="extended_application_label">Etykieta :</string>
+    <string name="extended_application_transaction">Licznik transakcji :</string>
+    <string name="extended_application_pin_try">Pozostało prób PIN :</string>
+
+    <!-- Transaction -->
+    <string name="transaction_empty">Twoja karta nie udostępnia\nhistorii transakcji</string>
+
+    <!-- Transaction detail -->
+    <string name="transaction_type">Typ transakcji :</string>
+    <string name="transaction_cryptogram">Kryptogram :</string>
+    <string name="transaction_country">Kraj :</string>
+    <string name="transaction_unknown">Nieznany</string>
+
+    <!-- Transaction type -->
+    <string name="transaction_type_0">Zakup</string>
+    <string name="transaction_type_1">Wypłata</string>
+    <string name="transaction_type_9">Cashback</string>
+    <string name="transaction_type_32">Zwrot</string>
+    <string name="transaction_type_254">Załadowany</string>
+    <string name="transaction_type_255">rozładowywane</string>
+
+    <!-- Logs -->
+    <string name="mail_subject">[EMV Reader] Dziennik programu</string>
+    <string name="mail_popup_title">Wyślij dziennik</string>
+    <string name="mail_to">android@julien-millau.fr</string>
+    <string name="log_dialog_cancel">Anuluj</string>
+    <string name="log_dialog_ok">Ok</string>
+    <string name="log_dialog">Aby zobaczyć zdekodowane dane, przekaż darowiznę</string>
+
+
+    <!-- About -->
+    <string name="about_app_detail">Ta plikacja zostałą stworzona do odczytu publicznych danych z bankowych kart NFC zgodnych ze standardem EMV.</string>
+    <string name="about_source_detail">Kod źródłowy i dokumentacja jest dostępna na <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Aplikacja napisana przez <a href="http://julien-millau.fr">Julien Millau</a>
+      \n\nDziękuję Rafał Mania za tłumaczenia
+    </string>
+    <string name="about_inapp_text">Pomóż nam ulepszyć aplikację przekazując darowiznę</string>
+    <string name="donation_thanks">Dziękuję za wsparcie</string>
+    <string name="about_pro_app">Odczyt wielu kart, dekodowanie większej ilości danych, eksport danych ze ścieżki 1/2 ...</string>
+    <string name="about_title">O programie</string>
+    <string name="about_inApp">Wesprzyj</string>
+
+    <!-- Navigation drawable -->
+    <string name="navigation_menu_open">Otwórz menu</string>
+    <string name="navigation_menu_close">Zamknij menu</string>
+    <string name="navigation_card_details">Szczegóły karty</string>
+    <string name="navigation_settings">Ustawienia</string>
+    <string name="navigation_about">O programie</string>
+
+    <!-- App rating  -->
+    <string name="dialog_text">Proszę poświęć chwilę i oceń aplikację. Dziękuję za wsparcie!</string>
+    <string name="dialog_header">Oceń aplikację</string>
+    <string name="rate">Tak</string>
+    <string name="no">Nie</string>
+    <string name="dontask">Nie pytaj więcej</string>
+
+    <!-- Preferences -->
+    <string name="storage_category">Przechowywane dane</string>
+    <string name="appearance_category">Wygląd</string>
+    <string name="pref_remove_all_stored_cards">Usuń zapisane dane</string>
+    <string name="pref_hide_card_number">Ukryj numer karty</string>
+    <string name="pref_hide_card_number_on">Numer karty ukryty</string>
+    <string name="pref_hide_card_number_off">Numer karty wyświetlany</string>
+    <string name="pref_expend_logs">Szczegółowy dziennik</string>
+    <string name="pref_expend_logs_on">Szczegółowy dziennik włączony</string>
+    <string name="pref_expend_logs_off">Szczegółowy dziennik wyłączony</string>
+
+    <string name="general_category">Ogólne</string>
+    <string name="pref_nfc_listener_title">Uruchomienie aplikacji z NFC</string>
+    <string name="pref_nfc_listener_on">Uruchomienie włączone</string>
+    <string name="pref_nfc_listener_off">Uruchomienie wyłączone</string>
+
+    <string name="compatibility_mode">Proszę wypróbować trybu zgodności,\ngdy odczyt się nie udaje (Ustawienia -> Tryb odczytu)</string>
+    <string name="reader_mode_category">Tryb odczytu NFC</string>
+    <string name="pref_activate_old_mode">Aktywuj tryb zgodności</string>
+    <string name="pref_activate_old_mode_on">Tryb zgodności włączony</string>
+    <string name="pref_activate_old_mode_off">Tryb zgodności wyłączony</string>
+    <string name="feedback_text">Wyślij opinię albo zgłoś problemy</string>
+    <string name="transaction_time">czas transakcji :</string>
+</resources>
