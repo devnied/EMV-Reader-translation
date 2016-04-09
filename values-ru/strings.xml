@@ -75,6 +75,7 @@
     <string name="transaction_type">Тип транзакции:</string>
     <string name="transaction_cryptogram">Криптограмма:</string>
     <string name="transaction_country">Страна:</string>
+    <string name="transaction_time">время торговли :</string>
     <string name="transaction_unknown">Неизвестно</string>
 
     <!-- Transaction type -->
@@ -140,6 +141,8 @@
     <string name="pref_activate_old_mode">Включить режим совместимости</string>
     <string name="pref_activate_old_mode_on">Режим совместимости включен</string>
     <string name="pref_activate_old_mode_off">Режим совместимости выключен</string>
+
     <string name="feedback_text">Обратная связь или отправка отчетов</string>
-    <string name="transaction_time">время торговли :</string>
+    <string name="improve_translation_text">Улучшить перевод</string>
+
 </resources>

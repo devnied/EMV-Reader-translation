@@ -140,5 +140,6 @@
     <string name="pref_activate_old_mode_off">Compatibility mode disabled</string>
 
     <string name="feedback_text">Send feedback or report issues</string>
+    <string name="improve_translation_text">Improve translation</string>
 
 </resources>

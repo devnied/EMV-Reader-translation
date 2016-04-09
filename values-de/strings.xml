@@ -75,6 +75,7 @@
     <string name="transaction_type">Transaktionstyp :</string>
     <string name="transaction_cryptogram">Kryptogramm :</string>
     <string name="transaction_country">Transaktionsland :</string>
+    <string name="transaction_time">Transaktionszeit :</string>
     <string name="transaction_unknown">Unbekannt</string>
 
     <!-- Transaction type -->
@@ -140,6 +141,6 @@
     <string name="pref_activate_old_mode_off">Kompatibilitätsmodus deaktiviert</string>
 
     <string name="feedback_text">Senden Sie Feedback oder Bericht Ausgaben</string>
-    <string name="transaction_time">Transaktionszeit :</string>
+    <string name="improve_translation_text">Verbesserung der Übersetzung</string>
 
 </resources>

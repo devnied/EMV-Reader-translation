@@ -105,11 +105,12 @@
     <string name="pref_activate_old_mode">Activer le mode de compatibilité</string>
     <string name="pref_activate_old_mode_on">Mode de compatibilité activé</string>
     <string name="pref_activate_old_mode_off">Mode de compatibilité desactivé</string>
-
-    <string name="feedback_text">Envoyer un commentaires ou signaler un problème</string>
-    <string name="general_category">Général</string>
     <string name="pref_nfc_listener_title">Lancement de l\'application avec le NFC</string>
     <string name="pref_nfc_listener_on">Lancement activée</string>
     <string name="pref_nfc_listener_off">Lancement désactivée</string>
-    <string name="transaction_time">Heure de la transaction :</string>
+
+    <string name="feedback_text">Envoyer un commentaires ou signaler un problème</string>
+    <string name="general_category">Général</string>
+    <string name="improve_translation_text">Améliorer la traduction</string>
+
 </resources>

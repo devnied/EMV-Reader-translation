@@ -35,14 +35,14 @@
     <string name="extended_share">Condividere</string>
     <string name="buy_pro_dialog">
         <![CDATA[
-        With the free version you can only read and keep one card at a time, the previous read card has been removed.<br /><br />
-        <b><u>Pro version</u></b><br /><br />
-         \u2022 Read multiple cards<br />
-         \u2022 Store cards<br />
-         \u2022 Read applications<br />
-         \u2022 Track 1&amp;2 data<br />
-         \u2022 Extended history<br />
-         \u2022 Export data
+        Con la versione gratuita è possibile solo leggere e conservare una carta alla volta, è stata rimossa la scheda di lettura precedente.<br /><br />
+        <b><u>Versione Pro</u></b><br /><br />
+         \u2022 Leggi multipla carte<br />
+         \u2022 Archivio carte<br />
+         \u2022 Leggere applicazioni<br />
+         \u2022 Track 1&amp;2 dati<br />
+         \u2022 Registro estesa<br />
+         \u2022 Esportazione dati
          ]]>
     </string>
     <string name="buy_pro_button">Acquista la versione pro</string>
@@ -99,7 +99,7 @@
     <string name="about_source_detail">Codice sorgente e la documentazione disponibile su <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Applicazione scritta da <a href="http://julien-millau.fr">Julien Millau</a></string>
     <string name="about_inapp_text">Aiutaci a migliorare questo app con donazione</string>
     <string name="donation_thanks">Grazie per la vostra donazione</string>
-    <string name="about_pro_app">Read multiple cards, Extract more data, Export track 1/2 data, ...</string>
+    <string name="about_pro_app">Leggi multipla carte, Archivio carte, Leggere applicazioni,Track 1&amp;2 dati, ...</string>
     <string name="about_title">A proposito</string>
     <string name="about_inApp">Donare</string>
 
@@ -113,7 +113,7 @@
     <!-- App rating  -->
     <string name="dialog_text">Grazie per occorrere un momento per votare questo app!</string>
     <string name="dialog_header">Vota questa applicazione</string>
-    <string name="rate">sì</string>
+    <string name="rate">Sì</string>
     <string name="no">No</string>
     <string name="dontask">Non chiedere di nuovo</string>
 
@@ -132,12 +132,13 @@
     <string name="pref_nfc_listener_on">Lancio abilitato</string>
     <string name="pref_nfc_listener_off">Lancio disattivato</string>
 
-    <string name="compatibility_mode">Please try the compatibility mode when\nreading fail (Settings > Reader Mode)</string>
+    <string name="compatibility_mode">Si prega di provare la modalità di compatibilità quando la lettura non riesce (Parametri > Reader mode)</string>
     <string name="reader_mode_category">NFC reader mode</string>
     <string name="pref_activate_old_mode">Attivare la modalità di compatibilità</string>
     <string name="pref_activate_old_mode_on">Modalità di compatibilità attiva</string>
     <string name="pref_activate_old_mode_off">Modalità di compatibilità disabilitato</string>
 
     <string name="feedback_text">Inviare un commento o segnalare un problema</string>
+    <string name="improve_translation_text">Migliorare la traduzione</string>
 
 </resources>
