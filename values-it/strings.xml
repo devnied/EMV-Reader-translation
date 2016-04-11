@@ -75,6 +75,7 @@
     <string name="transaction_type">Tipo di transazione :</string>
     <string name="transaction_cryptogram">Crittogramma :</string>
     <string name="transaction_country">Paese :</string>
+    <string name="transaction_time">Tempo di transazione :</string>
     <string name="transaction_unknown">Sconosciuto</string>
 
     <!-- Transaction type -->
@@ -132,7 +133,7 @@
     <string name="pref_nfc_listener_on">Lancio abilitato</string>
     <string name="pref_nfc_listener_off">Lancio disattivato</string>
 
-    <string name="compatibility_mode">Si prega di provare la modalità di compatibilità quando la lettura non riesce (Parametri > Reader mode)</string>
+    <string name="compatibility_mode">Si prega di provare la modalità di compatibilità quando\nla lettura non riesce (Parametri > Reader mode)</string>
     <string name="reader_mode_category">NFC reader mode</string>
     <string name="pref_activate_old_mode">Attivare la modalità di compatibilità</string>
     <string name="pref_activate_old_mode_on">Modalità di compatibilità attiva</string>

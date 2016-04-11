@@ -97,7 +97,7 @@
 
     <!-- About -->
     <string name="about_app_detail">Diese App wurde entwickelt, um frei verfügbare Informationen aus EMV-konformen  NFC-fähigen Bankkarten auszulesen.</string>
-    <string name="about_source_detail">Quellcode ist auf dem <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Application written by <a href="http://julien-millau.fr">Julien Millau</a></string>
+    <string name="about_source_detail">Quellcode ist auf dem <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Geschrieben von Anwendung <a href="http://julien-millau.fr">Julien Millau</a></string>
     <string name="about_inapp_text">Helfen Sie uns, diese app zu verbessern, Spenden!</string>
     <string name="donation_thanks">Vielen Dank für Ihre Spende</string>
     <string name="about_pro_app">Auslesen von mehreren Karten, Erweiterte Historie, Track 1&amp;2 Daten, ...</string>

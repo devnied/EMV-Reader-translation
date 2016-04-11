@@ -97,7 +97,7 @@
 
     <!-- About -->
     <string name="about_app_detail">Esta aplicación fue hecha para leer datos públicos de Bancaria tarjetas NFC compatibles con la norma EMV.</string>
-    <string name="about_source_detail">Código fuente y la documentación disponible en <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. aplicación escrito por <a href="http://julien-millau.fr">Julien Millau</a></string>
+    <string name="about_source_detail">Código fuente y la documentación disponible en <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Aplicación escrita por <a href="http://julien-millau.fr">Julien Millau</a></string>
     <string name="about_inapp_text">Ayúdanos a mejorar esta aplicación con donación</string>
     <string name="donation_thanks">Gracias por su donación</string>
     <string name="about_pro_app">Leer múltiples tarjetas, extraer más datos, Compartir track 1/2 datos, ...</string>

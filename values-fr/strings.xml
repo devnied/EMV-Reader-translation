@@ -88,6 +88,7 @@
     <string name="transaction_country">Pays :</string>
     <string name="transaction_cryptogram">Crytogram :</string>
     <string name="transaction_type">Type de transaction :</string>
+    <string name="transaction_time">Heure de la transaction :</string>
     <string name="transaction_empty">Votre carte ne donne pas accès à\n l\'historique des transactions</string>
     <string name="transaction_type_0">Achat</string>
     <string name="transaction_type_1">Avance</string>
