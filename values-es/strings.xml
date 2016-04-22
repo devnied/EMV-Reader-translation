@@ -40,7 +40,7 @@
          \u2022 Leer múltiples tarjetas<br />
          \u2022 Guardar tarjetas<br />
          \u2022 Leer aplicaciones<br />
-         \u2022 Track 1&amp;2 data<br />
+         \u2022 Track 1&amp;2 datos<br />
          \u2022 Registro extendida<br />
          \u2022 Exportación de datos
          ]]>
@@ -96,7 +96,7 @@
 
 
     <!-- About -->
-    <string name="about_app_detail">Esta aplicación fue hecha para leer datos públicos de Bancaria tarjetas NFC compatibles con la norma EMV.</string>
+    <string name="about_app_detail">Esta aplicación fue hecha para leer los datos públicos de tarjetas Bancaria NFC compatibles con la norma EMV.</string>
     <string name="about_source_detail">Código fuente y la documentación disponible en <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Aplicación escrita por <a href="http://julien-millau.fr">Julien Millau</a></string>
     <string name="about_inapp_text">Ayúdanos a mejorar esta aplicación con donación</string>
     <string name="donation_thanks">Gracias por su donación</string>

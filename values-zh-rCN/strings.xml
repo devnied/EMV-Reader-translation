@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">信用卡读卡器</string>
+    <string name="app_name_pro">信用卡读卡器专业版</string>
+    <string name="activity_name">信用卡读卡器</string>
+
+    <!-- Msg -->
+    <string name="billing_success">谢谢支持 !</string>
+    <string name="card_read">读卡</string>
+    <string name="card_reading">正在读卡&#8230;</string>
+    <string name="card_deleted">删除卡数据</string>
+    <string name="card_reading_desc">读卡过程中请勿移动或拿走卡片.</string>
+    <string name="nfc_locked">您卡片的NFC已锁或卡片尚未激活</string>
+    <string name="msg_nfc_available">您的设备没有NFC功能，不支持此应用.</string>
+    <string name="msg_nfc_disable">请先开启设备NFC功能再返回应用.</string>
+    <string name="msg_activate_nfc">确定</string>
+    <string name="msg_info">信息</string>
+    <string name="donate_banner">帮助我们完善app, 捐助 !</string>
+
+    <!-- Error -->
+    <string name="error_communication_nfc">请勿移动卡片，再尝试读取 !</string>
+    <string name="error_card_unknown">不支持的卡片类型</string>
+    <string name="error_link">浏览器打开失败</string>
+    <string name="error_email">邮件打开失败</string>
+
+    <!-- Tabs -->
+    <string name="viewpager_carddetail">卡片详细信息</string>
+    <string name="viewpager_transactions">翻译</string>
+    <string name="viewpager_log">日志</string>
+
+    <!-- Card Detail -->
+    <string name="paycard_back_text">把您的卡片贴于手机背面</string>
+    <string name="extended_card_detail_title">展开卡片详情</string>
+    <string name="card_representation_title">卡片信息</string>
+    <string name="extended_share">分享</string>
+    <string name="buy_pro_dialog">
+        <![CDATA[
+        免费版本每次只能读取和保存一张卡片的信息, 上一张的信息将会消失.<br /><br />
+        <b><u>专业版</u></b><br /><br />
+         \u2022 可读取多张卡片<br />
+         \u2022 存储多张卡片信息<br />
+         \u2022 读取卡片应用信息<br />
+         \u2022 磁道 1&amp;2 数据<br />
+         \u2022 查看历史<br />
+         \u2022 导出数据
+         ]]>
+    </string>
+    <string name="buy_pro_button">购买专业版</string>
+
+    <string name="extended_title_AID">卡片 AID :</string>
+    <string name="extended_title_application_label">应用 :</string>
+    <string name="extended_title_pin_try">Pin剩余次数 :</string>
+    <string name="extended_title_card_type">卡类型 :</string>
+    <string name="extended_card_holder_name">持卡人 :</string>
+    <string name="extended_title_possible_bank">发卡行 :\n(可能)</string>
+    <string name="extended_title_times">次(s)</string>
+    <string name="extended_track2_title">磁道 2</string>
+    <string name="extended_track2_expire">过期日期 :</string>
+    <string name="extended_track2_card_number">卡号 :</string>
+    <string name="extended_track2_card_service">服务 :</string>
+    <string name="extended_track1_title">磁道 1</string>
+    <string name="extended_track1_format">格式 :</string>
+    <string name="extended_application_title">应用</string>
+    <string name="extended_application_number">应用号 :</string>
+    <string name="extended_application_AID">AID :</string>
+    <string name="extended_application_priority">优先级 :</string>
+    <string name="extended_application_label">标签 :</string>
+    <string name="extended_application_transaction">交易计数器 :</string>
+    <string name="extended_application_pin_try">Pin剩余次数 :</string>
+
+    <!-- Transaction -->
+    <string name="transaction_empty">您的卡片不支持历史交易信息</string>
+
+    <!-- Transaction detail -->
+    <string name="transaction_type">交易类型 :</string>
+    <string name="transaction_cryptogram">密码 :</string>
+    <string name="transaction_country">终端国家:</string>
+    <string name="transaction_time">交易时间 :</string>
+    <string name="transaction_unknown">未知</string>
+
+    <!-- Transaction type -->
+    <string name="transaction_type_0">购买</string>
+    <string name="transaction_type_1">充值</string>
+    <string name="transaction_type_9">冲正</string>
+    <string name="transaction_type_32">退款</string>
+    <string name="transaction_type_254">落地</string>
+    <string name="transaction_type_255">未落地</string>
+
+    <!-- Logs -->
+    <string name="mail_subject">[EMV 读卡器] 日志报告</string>
+    <string name="mail_popup_title">发送日志</string>
+    <string name="mail_to">android@julien-millau.fr</string>
+    <string name="log_dialog_cancel">取消</string>
+    <string name="log_dialog_ok">确定</string>
+    <string name="log_dialog">请捐助以便获取解密后的数据</string>
+
+
+    <!-- About -->
+    <string name="about_app_detail">该应用通过NFC读取兼容EMV规范的银行卡公开信息.</string>
+    <string name="about_source_detail">文档和源代码可以从 <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>获取. 作者 <a href="http://julien-millau.fr">Julien Millau</a></string>
+    <string name="about_inapp_text">捐助以帮助我们改进app功能</string>
+    <string name="donation_thanks">谢谢你的捐助</string>
+    <string name="about_pro_app">读取多张卡片，更多卡片信息，磁道1， 磁道2...</string>
+    <string name="about_title">关于</string>
+    <string name="about_inApp">捐助</string>
+
+    <!-- Navigation drawable -->
+    <string name="navigation_menu_open">开启导航菜单</string>
+    <string name="navigation_menu_close">关闭导航菜单</string>
+    <string name="navigation_card_details">卡片详情</string>
+    <string name="navigation_settings">设置</string>
+    <string name="navigation_about">关于</string>
+
+    <!-- App rating  -->
+    <string name="dialog_text">请花点时间打个分. 谢谢支持!</string>
+    <string name="dialog_header">给app打个分</string>
+    <string name="rate">是</string>
+    <string name="no">否</string>
+    <string name="dontask">不再询问</string>
+
+    <!-- Preferences -->
+    <string name="storage_category">存储</string>
+    <string name="appearance_category">显示</string>
+    <string name="pref_remove_all_stored_cards">删除已保存的数据</string>
+    <string name="pref_hide_card_number">隐藏卡号</string>
+    <string name="pref_hide_card_number_on">卡号已隐藏</string>
+    <string name="pref_hide_card_number_off">卡号已显示</string>
+    <string name="pref_expend_logs">展开日志信息</string>
+    <string name="pref_expend_logs_on">日志信息已打开</string>
+    <string name="pref_expend_logs_off">日志信息已隐藏</string>
+    <string name="general_category">常规</string>
+    <string name="pref_nfc_listener_title">NFC启动APP</string>
+    <string name="pref_nfc_listener_on">开启</string>
+    <string name="pref_nfc_listener_off">关闭</string>
+
+    <string name="compatibility_mode">读卡失败请尝试使用兼容模式(设置 > 读取模式)</string>
+    <string name="reader_mode_category">NFC 读取模式</string>
+    <string name="pref_activate_old_mode">激活兼容模式</string>
+    <string name="pref_activate_old_mode_on">兼容模式已激活</string>
+    <string name="pref_activate_old_mode_off">兼容模式已关闭</string>
+
+    <string name="feedback_text">发送反馈报告</string>
+    <string name="improve_translation_text">优化翻译</string>
+
+</resources>
