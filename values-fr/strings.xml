@@ -9,10 +9,10 @@
     <string name="about_inapp_text">Aidez nous à améliorer l\'application avec un don</string>
     <string name="about_pro_app">Lecture de plusieurs cartes, Extraction de données supplémentaire, Export des données track 1/2 ...</string>
     <string name="about_source_detail">Code source et documentation disponible sur <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Application écrite par <a href="http://julien-millau.fr">Julien Millau</a></string>
-    <string name="about_title">A propos</string>
+    <string name="about_title">À propos</string>
     <string name="billing_success">Merci pour votre donation !</string>
     <string name="buy_pro_dialog"><![CDATA[
-        Avec la version gratuite, vous pouvez seulement lire et garder qu\'une seule carte, la carte précédente a été supprimé.<br /><br />
+        Avec la version gratuite, vous ne pouvez lire et garder qu\'une seule carte. La carte précédente a été supprimée.<br /><br />
         <b><u>Version pro</u></b><br /><br />
          \u2022 Lecture de plusieurs cartes<br />
          \u2022 Sauvegarde de plusieurs cartes<br />
@@ -24,11 +24,11 @@
     <string name="card_deleted">Données de la carte supprimées</string>
     <string name="card_read">Carte lue</string>
     <string name="card_reading">Lecture en cours&#8230;</string>
-    <string name="card_reading_desc">Veuillez ne pas enlever ou bouger votre carte pendant la lecture.</string>
+    <string name="card_reading_desc">Veuillez ne pas retirer ni bouger votre carte durant la lecture.</string>
     <string name="card_representation_title">Representation visuelle</string>
     <string name="dialog_header">Notez cette application</string>
-    <string name="dialog_text">Merci de prendre un moment pour noter cette application!</string>
-    <string name="donate_banner">Aidez nous à améliorer l\'application avec un don !</string>
+    <string name="dialog_text">Merci de prendre un moment pour noter cette application !</string>
+    <string name="donate_banner">Aidez-nous à améliorer l\'application avec un don !</string>
     <string name="dontask">Ne plus demander</string>
     <string name="donation_thanks">Merci pour votre donation</string>
     <string name="error_card_unknown">Carte non supportée</string>
@@ -37,19 +37,19 @@
     <string name="error_link">Pas de navigateur</string>
     <string name="extended_application_AID">AID :</string>
     <string name="extended_application_label">Application :</string>
-    <string name="extended_application_number">Nombre d\'application :</string>
+    <string name="extended_application_number">Numéro d\'application :</string>
     <string name="extended_application_priority">Priorité :</string>
-    <string name="extended_application_pin_try">Pin restant :</string>
+    <string name="extended_application_pin_try">PIN restant :</string>
     <string name="extended_application_title">Application</string>
-    <string name="extended_application_transaction">Compteur de transaction :</string>
-    <string name="extended_card_detail_title">Information avancées</string>
+    <string name="extended_application_transaction">Compteur de transactions :</string>
+    <string name="extended_card_detail_title">Informations avancées</string>
     <string name="buy_pro_button">Acheter la version pro</string>
     <string name="extended_share">Partager</string>
     <string name="extended_card_holder_name">Porteur :</string>
     <string name="extended_title_AID">AID carte :</string>
     <string name="extended_title_application_label">Application :</string>
     <string name="extended_title_card_type">Type de carte :</string>
-    <string name="extended_title_pin_try">Pin restant :</string>
+    <string name="extended_title_pin_try">PIN restant :</string>
     <string name="extended_title_possible_bank">Banque :\n(possible)</string>
     <string name="extended_title_times">essai(s)</string>
     <string name="extended_track1_format">Format :</string>
@@ -60,7 +60,7 @@
     <string name="extended_track2_title">Track 2</string>
     <string name="log_dialog">Pour voir les données décodées merci de faire un don</string>
     <string name="log_dialog_cancel">Annuler</string>
-    <string name="log_dialog_ok">Ok</string>
+    <string name="log_dialog_ok">OK</string>
     <string name="mail_popup_title">Envoyer les logs</string>
     <string name="mail_subject">[EMV Reader] Log report</string>
     <string name="mail_to">android@julien-millau.fr</string>
@@ -68,11 +68,11 @@
     <string name="msg_info">Information</string>
     <string name="msg_nfc_available">Votre appareil n\'est pas compatible NFC. Cela est nécessaire pour le fonctionnement de l\'application.</string>
     <string name="msg_nfc_disable">Veuillez activer le NFC et appuyez sur retour pour revenir sur l\'application.</string>
-    <string name="navigation_about">A propos</string>
+    <string name="navigation_about">À propos</string>
     <string name="navigation_card_details">Infos carte</string>
     <string name="navigation_menu_close">Fermer</string>
     <string name="navigation_menu_open">Ouvrir</string>
-    <string name="navigation_settings">Paramétres</string>
+    <string name="navigation_settings">Paramètres</string>
     <string name="nfc_locked">Paiement NFC désactivé sur votre carte ou carte non activée</string>
     <string name="no">Non</string>
     <string name="paycard_back_text">Positionnez votre carte NFC\n à l\'arrière de votre téléphone</string>
@@ -86,7 +86,7 @@
     <string name="rate">Oui</string>
     <string name="storage_category">Stockage</string>
     <string name="transaction_country">Pays :</string>
-    <string name="transaction_cryptogram">Crytogram :</string>
+    <string name="transaction_cryptogram">Crytograme :</string>
     <string name="transaction_type">Type de transaction :</string>
     <string name="transaction_time">Heure de la transaction :</string>
     <string name="transaction_empty">Votre carte ne donne pas accès à\n l\'historique des transactions</string>
@@ -101,14 +101,14 @@
     <string name="viewpager_transactions">Transactions</string>
     <string name="viewpager_log">Log</string>
 
-    <string name="compatibility_mode">Merci d\'utiliser le mode de compatibilité lorsque\nla lecture échoue (Paramétres > Mode de lecture)</string>
+    <string name="compatibility_mode">Merci d\'utiliser le mode de compatibilité lorsque\nla lecture échoue (Paramètres > Mode de lecture)</string>
     <string name="reader_mode_category">Mode de lecture NFC</string>
     <string name="pref_activate_old_mode">Activer le mode de compatibilité</string>
     <string name="pref_activate_old_mode_on">Mode de compatibilité activé</string>
     <string name="pref_activate_old_mode_off">Mode de compatibilité desactivé</string>
     <string name="pref_nfc_listener_title">Lancement de l\'application avec le NFC</string>
-    <string name="pref_nfc_listener_on">Lancement activée</string>
-    <string name="pref_nfc_listener_off">Lancement désactivée</string>
+    <string name="pref_nfc_listener_on">Lancement activé</string>
+    <string name="pref_nfc_listener_off">Lancement désactivé</string>
 
     <string name="feedback_text">Envoyer un commentaires ou signaler un problème</string>
     <string name="general_category">Général</string>
