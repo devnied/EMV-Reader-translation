@@ -37,7 +37,7 @@
     <string name="error_link">Pas de navigateur</string>
     <string name="extended_application_AID">AID :</string>
     <string name="extended_application_label">Application :</string>
-    <string name="extended_application_number">Numéro d\'application :</string>
+    <string name="extended_application_number">Nombre d\'application :</string>
     <string name="extended_application_priority">Priorité :</string>
     <string name="extended_application_pin_try">PIN restant :</string>
     <string name="extended_application_title">Application</string>
@@ -86,7 +86,7 @@
     <string name="rate">Oui</string>
     <string name="storage_category">Stockage</string>
     <string name="transaction_country">Pays :</string>
-    <string name="transaction_cryptogram">Crytograme :</string>
+    <string name="transaction_cryptogram">Cryptogramme :</string>
     <string name="transaction_type">Type de transaction :</string>
     <string name="transaction_time">Heure de la transaction :</string>
     <string name="transaction_empty">Votre carte ne donne pas accès à\n l\'historique des transactions</string>
