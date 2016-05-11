@@ -7,10 +7,10 @@
     <string name="app_name_pro">Lecteur de carte bancaire Pro</string>
     <string name="appearance_category">Apparence</string>
     <string name="about_inapp_text">Aidez nous à améliorer l\'application avec un don</string>
-    <string name="about_pro_app">Lecture de plusieurs cartes, Extraction de données supplémentaire, Export des données track 1/2 ...</string>
+    <string name="about_pro_app">Lecture de plusieurs cartes, Extraction de données supplémentaires, Export des données track 1/2 ...</string>
     <string name="about_source_detail">Code source et documentation disponible sur <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Application écrite par <a href="http://julien-millau.fr">Julien Millau</a></string>
     <string name="about_title">À propos</string>
-    <string name="billing_success">Merci pour votre donation !</string>
+    <string name="billing_success">Merci pour votre don !</string>
     <string name="buy_pro_dialog"><![CDATA[
         Avec la version gratuite, vous ne pouvez lire et garder qu\'une seule carte. La carte précédente a été supprimée.<br /><br />
         <b><u>Version pro</u></b><br /><br />
@@ -25,12 +25,12 @@
     <string name="card_read">Carte lue</string>
     <string name="card_reading">Lecture en cours&#8230;</string>
     <string name="card_reading_desc">Veuillez ne pas retirer ni bouger votre carte durant la lecture.</string>
-    <string name="card_representation_title">Representation visuelle</string>
-    <string name="dialog_header">Notez cette application</string>
+    <string name="card_representation_title">Représentation visuelle</string>
+    <string name="dialog_header">Noter cette application</string>
     <string name="dialog_text">Merci de prendre un moment pour noter cette application !</string>
     <string name="donate_banner">Aidez-nous à améliorer l\'application avec un don !</string>
     <string name="dontask">Ne plus demander</string>
-    <string name="donation_thanks">Merci pour votre donation</string>
+    <string name="donation_thanks">Merci pour votre don</string>
     <string name="error_card_unknown">Carte non supportée</string>
     <string name="error_communication_nfc">Merci de ne pas bouger votre carte durant la lecture !</string>
     <string name="error_email">Pas de client mail</string>
@@ -77,8 +77,8 @@
     <string name="no">Non</string>
     <string name="paycard_back_text">Positionnez votre carte NFC\n à l\'arrière de votre téléphone</string>
     <string name="pref_expend_logs">Détail des logs</string>
-    <string name="pref_expend_logs_off">Détail des logs caché</string>
-    <string name="pref_expend_logs_on">Détail des logs affiché</string>
+    <string name="pref_expend_logs_off">Détail des logs cachés</string>
+    <string name="pref_expend_logs_on">Détail des logs affichés</string>
     <string name="pref_hide_card_number">Masquer le numéro de carte</string>
     <string name="pref_hide_card_number_off">Numéro de carte affiché</string>
     <string name="pref_hide_card_number_on">Numéro de carte caché</string>
