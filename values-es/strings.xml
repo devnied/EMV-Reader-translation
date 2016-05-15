@@ -6,22 +6,22 @@
 
     <!-- Msg -->
     <string name="billing_success">Gracias por su donación !</string>
-    <string name="card_read">Tarjeta leído</string>
+    <string name="card_read">Tarjeta leída</string>
     <string name="card_reading">Lectura en curso&#8230;</string>
     <string name="card_deleted">Tarjeta quitada</string>
     <string name="card_reading_desc">Por favor, no quitar o mover la tarjeta durante la lectura.</string>
     <string name="nfc_locked">NFC está bloqueado en su tarjeta o la tarjeta no está activada</string>
-    <string name="msg_nfc_available">Este dispositivo no tiene NFC que es necesaria para ejecutar esta aplicación.</string>
+    <string name="msg_nfc_available">Este dispositivo no tiene NFC y es necesario para ejecutar esta aplicación.</string>
     <string name="msg_nfc_disable">Por favor, activa NFC y pulsa retroceso para volver a esta aplicación.</string>
     <string name="msg_activate_nfc">Vale</string>
-    <string name="msg_info">información</string>
+    <string name="msg_info">Información</string>
     <string name="donate_banner">Ayúdanos a mejorar esta aplicación gratuita con un donativo</string>
 
     <!-- Error -->
     <string name="error_communication_nfc">Por favor, no mueva la tarjeta, vuelva a intentarlo!</string>
     <string name="error_card_unknown">Tarjeta no compatible</string>
-    <string name="error_link">No navegador encontró</string>
-    <string name="error_email">No cliente de correo electrónico encontró</string>
+    <string name="error_link">No se ha encontrado un navegador</string>
+    <string name="error_email">No se ha encontrado un cliente de correo electrónico</string>
 
     <!-- Tabs -->
     <string name="viewpager_carddetail">Detalle de la tarjeta</string>
@@ -29,13 +29,13 @@
     <string name="viewpager_log">Registro</string>
 
     <!-- Card Detail -->
-    <string name="paycard_back_text">Mantenga su tarjeta de pago NFC\na la parte posterior del teléfono</string>
-    <string name="extended_card_detail_title">Datos de la tarjeta extendida</string>
+    <string name="paycard_back_text">Mantenga su tarjeta de pago NFC\nen la parte posterior del teléfono</string>
+    <string name="extended_card_detail_title">Datos extendidos de la tarjeta</string>
     <string name="card_representation_title">Representación de la tarjeta</string>
     <string name="extended_share">Compartir</string>
     <string name="buy_pro_dialog">
         <![CDATA[
-        Con la versión gratuita sólo se puede leer y guardar una tarjeta a la vez, la tarjeta de lectura anterior se ha eliminado.<br /><br />
+        Con la versión gratuita sólo se puede leer y guardar una tarjeta a la vez, la última tarjeta leída se ha eliminado.<br /><br />
         <b><u>Versión Pro</u></b><br /><br />
          \u2022 Leer múltiples tarjetas<br />
          \u2022 Guardar tarjetas<br />
@@ -47,10 +47,10 @@
     </string>
     <string name="buy_pro_button">Comprar la versión pro</string>
 
-    <string name="extended_title_AID">Tarjetas AID :</string>
+    <string name="extended_title_AID">AID Tarjeta :</string>
     <string name="extended_title_application_label">Aplicaciones :</string>
-    <string name="extended_title_pin_try">Pin restante :</string>
-    <string name="extended_title_card_type">Tarjetas tipo :</string>
+    <string name="extended_title_pin_try">Intentos de Pin restantes :</string>
+    <string name="extended_title_card_type">Tipo de Tarjeta :</string>
     <string name="extended_card_holder_name">Nombre del titular :</string>
     <string name="extended_title_possible_bank">Emisor de la tarjeta :\n(posible)</string>
     <string name="extended_title_times">veces(s)</string>
@@ -66,25 +66,25 @@
     <string name="extended_application_priority">Prioridad :</string>
     <string name="extended_application_label">Etiqueta :</string>
     <string name="extended_application_transaction">Contador de transacciones :</string>
-    <string name="extended_application_pin_try">Pin restante :</string>
+    <string name="extended_application_pin_try">Intentos de Pin restantes :</string>
 
     <!-- Transaction -->
     <string name="transaction_empty">Su tarjeta no proporciona\nel historial de transacciones</string>
 
     <!-- Transaction detail -->
-    <string name="transaction_type">Transacción tipo :</string>
+    <string name="transaction_type">Tipo de transacción :</string>
     <string name="transaction_cryptogram">Criptograma :</string>
-    <string name="transaction_country">País terminal :</string>
+    <string name="transaction_country">País del terminal :</string>
     <string name="transaction_time">Hora de la transacción :</string>
     <string name="transaction_unknown">Desconocido</string>
 
     <!-- Transaction type -->
     <string name="transaction_type_0">Compra</string>
     <string name="transaction_type_1">Adelanto de efectivo</string>
-    <string name="transaction_type_9">Cash back</string>
+    <string name="transaction_type_9">Devolución</string>
     <string name="transaction_type_32">Reembolso</string>
-    <string name="transaction_type_254">Cargado</string>
-    <string name="transaction_type_255">Sin carga</string>
+    <string name="transaction_type_254">Cargo</string>
+    <string name="transaction_type_255">Retirada</string>
 
     <!-- Logs -->
     <string name="mail_subject">[EMV Reader] Log report</string>
@@ -96,9 +96,9 @@
 
 
     <!-- About -->
-    <string name="about_app_detail">Esta aplicación fue hecha para leer los datos públicos de tarjetas Bancaria NFC compatibles con la norma EMV.</string>
+    <string name="about_app_detail">Esta aplicación fue hecha para leer los datos públicos de tarjetas Bancarias NFC compatibles con la norma EMV.</string>
     <string name="about_source_detail">Código fuente y la documentación disponible en <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Aplicación escrita por <a href="http://julien-millau.fr">Julien Millau</a></string>
-    <string name="about_inapp_text">Ayúdanos a mejorar esta aplicación con donación</string>
+    <string name="about_inapp_text">Ayúdanos a mejorar esta aplicación con una donación</string>
     <string name="donation_thanks">Gracias por su donación</string>
     <string name="about_pro_app">Leer múltiples tarjetas, extraer más datos, Compartir track 1/2 datos, ...</string>
     <string name="about_title">Acerca de</string>
@@ -112,28 +112,28 @@
     <string name="navigation_about">Acerca de</string>
 
     <!-- App rating  -->
-    <string name="dialog_text">Por favor tome un momento para esta aplicación. Gracias por tu apoyo!</string>
+    <string name="dialog_text">Por favor toma un momento para evaluar esta aplicación. Gracias por tu apoyo!</string>
     <string name="dialog_header">Evalua esta aplicación</string>
     <string name="rate">sí</string>
     <string name="no">No</string>
-    <string name="dontask">No preguntes de nuevo</string>
+    <string name="dontask">No preguntar de nuevo</string>
 
     <!-- Preferences -->
     <string name="storage_category">Almacenamiento</string>
     <string name="appearance_category">Apariencia</string>
     <string name="pref_remove_all_stored_cards">Eliminar los datos almacenados</string>
     <string name="pref_hide_card_number">Ocultar número de tarjeta</string>
-    <string name="pref_hide_card_number_on">Número de tarjeta oculta</string>
-    <string name="pref_hide_card_number_off">Número del tarjeta mostrado</string>
-    <string name="pref_expend_logs">Detalle de registro extendido</string>
-    <string name="pref_expend_logs_on">Detalle de registro extendido</string>
-    <string name="pref_expend_logs_off">Detalle de registro ocultado</string>
+    <string name="pref_hide_card_number_on">Número de tarjeta oculto</string>
+    <string name="pref_hide_card_number_off">Número de tarjeta mostrado</string>
+    <string name="pref_expend_logs">Registro detallado</string>
+    <string name="pref_expend_logs_on">Registro detallado mostrado</string>
+    <string name="pref_expend_logs_off">Registro detallado ocultado</string>
     <string name="general_category">General</string>
     <string name="pref_nfc_listener_title">Inicia la aplicación con NFC</string>
-    <string name="pref_nfc_listener_on">Lanzamiento activado</string>
-    <string name="pref_nfc_listener_off">Lanzamiento desactivado</string>
+    <string name="pref_nfc_listener_on">Inicio activado</string>
+    <string name="pref_nfc_listener_off">Inicio desactivado</string>
 
-    <string name="compatibility_mode">Por favor, intente el modo de compatibilidad cuando\nlectura fallan (Configuración > Modo de lector)</string>
+    <string name="compatibility_mode">Por favor, intente el modo de compatibilidad cuando\nla lectura falla (Configuración > Modo de lector)</string>
     <string name="reader_mode_category">Modo de lector de NFC</string>
     <string name="pref_activate_old_mode">Activar modo de compatibilidad</string>
     <string name="pref_activate_old_mode_on">Modo de compatibilidad activado</string>
