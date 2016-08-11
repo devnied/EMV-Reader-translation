@@ -5,11 +5,11 @@
     <string name="activity_name">NFC-Kartenleser</string>
 
     <!-- Msg -->
-    <string name="billing_success">Vielen Dank für Ihre Spende !</string>
+    <string name="billing_success">Vielen Dank für Ihre Spende!</string>
     <string name="card_read">Karte einlesen</string>
     <string name="card_reading">Karte wird gelesen&#8230;</string>
     <string name="card_deleted">Gespeicherte Kartendaten gelöscht</string>
-    <string name="card_reading_desc">Bitte entfernen oder bewegen sie die Karte während des Auslesevorgangs nicht.</string>
+    <string name="card_reading_desc">Bitte entfernen oder bewegen sie ihre Karte während des Auslesevorgangs nicht.</string>
     <string name="nfc_locked">NFC ist auf Ihrer Karte blockiert, oder inaktiv.</string>
     <string name="msg_nfc_available">Dieses Gerät hat leider keine NFC-Unterstützung, die für diese App zwingend erforderlich ist.</string>
     <string name="msg_nfc_disable">Bitte aktivieren sie NFC in den Einstellungen und rufen die App erneut auf.</string>
@@ -18,8 +18,8 @@
     <string name="donate_banner">Helfen Sie uns mit Ihrer Spende, die App besser zu machen!</string>
 
     <!-- Error -->
-    <string name="error_communication_nfc">Bitte die Karte nicht bewegen und erneut versuchen !</string>
-    <string name="error_card_unknown">Karte aktuell noch nicht unterstützt</string>
+    <string name="error_communication_nfc">Bitte die Karte nicht bewegen und es erneut versuchen !</string>
+    <string name="error_card_unknown">Kartentyp aktuell noch nicht unterstützt</string>
     <string name="error_link">Kein Browser gefunden!</string>
     <string name="error_email">Kein E-Mail Client gefunden!</string>
 
@@ -29,7 +29,7 @@
     <string name="viewpager_log">Log</string>
 
     <!-- Card Detail -->
-    <string name="paycard_back_text">Halten Sie Ihre NFC-fähige Zahlkarte an die Rückseite ihres Smartphones</string>
+    <string name="paycard_back_text">Halten Sie Ihre NFC-fähige Zahlkarte an die Rückseite ihres Smartphones.</string>
     <string name="extended_card_detail_title">Erweiterte Kartendetails</string>
     <string name="card_representation_title">Kartendarstellung</string>
     <string name="extended_share">Teilen</string>
@@ -134,7 +134,7 @@
     <string name="pref_nfc_listener_on">NFC-Autostart aktiviert</string>
     <string name="pref_nfc_listener_off">NFC-Autostart deaktiviert</string>
 
-    <string name="compatibility_mode">Versuchen Sie bitte den Kompatibilitätsmodus\nwenn Lese scheitern (Einstellungen > Reader Modus)</string>
+    <string name="compatibility_mode">Versuchen Sie bitte den Kompatibilitätsmodus wenn das auslesen scheitert (Einstellungen > Auslesemodus)</string>
     <string name="reader_mode_category">NFC reader modus</string>
     <string name="pref_activate_old_mode">Kompatibilitätsmodus aktivieren</string>
     <string name="pref_activate_old_mode_on">Kompatibilitätsmodus aktiviert</string>
