@@ -37,7 +37,7 @@
     <string name="error_link">Pas de navigateur</string>
     <string name="extended_application_AID">AID :</string>
     <string name="extended_application_label">Application :</string>
-    <string name="extended_application_number">Nombre d\'application :</string>
+    <string name="extended_application_number">Nombre d\'applications :</string>
     <string name="extended_application_priority">Priorité :</string>
     <string name="extended_application_pin_try">PIN restant :</string>
     <string name="extended_application_title">Application</string>
