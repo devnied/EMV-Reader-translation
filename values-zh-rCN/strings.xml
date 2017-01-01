@@ -45,7 +45,7 @@
          \u2022 导出数据
          ]]>
     </string>
-    <string name="buy_pro_button">购买专业版</string>
+    <string name="buy_pro_button">专业版</string>
 
     <string name="extended_title_AID">卡片 AID :</string>
     <string name="extended_title_application_label">应用 :</string>
@@ -97,7 +97,7 @@
 
     <!-- About -->
     <string name="about_app_detail">该应用通过NFC读取兼容EMV规范的银行卡公开信息.</string>
-    <string name="about_source_detail">文档和源代码可以从 <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>获取. 作者 <a href="http://julien-millau.fr">Julien Millau</a></string>
+    <string name="about_source_detail"><![CDATA[文档和源代码可以从 <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>获取. 作者 <a href="http://julien-millau.fr">Julien Millau</a>]]></string>
     <string name="about_inapp_text">捐助以帮助我们改进app功能</string>
     <string name="donation_thanks">谢谢你的捐助</string>
     <string name="about_pro_app">读取多张卡片，更多卡片信息，磁道1， 磁道2...</string>
@@ -141,5 +141,9 @@
 
     <string name="feedback_text">发送反馈报告</string>
     <string name="improve_translation_text">优化翻译</string>
+    <string name="about_myapp_currency_title">Currency converter</string>
+    <string name="about_myapp_title">Our other free apps</string>
+    <string name="about_myapp_currency_download">Free\ndownload</string>
+    <string name="about_myapp_currency_desc">180+ currencies, live rates, offline ...</string>
 
 </resources>

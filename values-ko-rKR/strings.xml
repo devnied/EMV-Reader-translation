@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="app_name">Credit Card Reader</string>
+    <string name="app_name_pro">Credit Card Reader Pro</string>
+    <string name="activity_name">Credit Card Reader</string>
+
+    <!-- Msg -->
+    <string name="billing_success">기부해 주셔서 감사합니다!</string>
+    <string name="card_read">카드 읽기</string>
+    <string name="card_reading">읽기를 진행 중입니다...</string>
+    <string name="card_deleted">카드 데이터 삭제</string>
+    <string name="card_reading_desc">읽는 도중 카드를 제거하거나 움직이지 마십시오.</string>
+    <string name="nfc_locked">카드의 NFC가 잠겨져 있거나 카드가 활성화되지 않았습니다.</string>
+    <string name="msg_nfc_available">이 기기에는 이 앱을 실행하는데 필요한 NFC가 없습니다.</string>
+    <string name="msg_nfc_disable">NFC를 활성화한 다음 뒤로가기를 눌러 이 앱으로 돌아가십시오.</string>
+    <string name="msg_activate_nfc">확인</string>
+    <string name="msg_info">정보</string>
+    <string name="donate_banner">이 무료 앱을 개선할 수 있도록 기부해 주세요!</string>
+
+    <!-- Error -->
+    <string name="error_communication_nfc">카드를 움직이지 마십시오. 다시 시도하세요!</string>
+    <string name="error_card_unknown">이 카드는 현재 지원되지 않습니다.</string>
+    <string name="error_link">웹 브라우저 없음</string>
+    <string name="error_email">이메일 클라이언트 없음</string>
+
+    <!-- Tabs -->
+    <string name="viewpager_carddetail">카드 세부 사항</string>
+    <string name="viewpager_transactions">거래</string>
+    <string name="viewpager_log">로그</string>
+
+    <!-- Card Detail -->
+    <string name="paycard_back_text">NFC 지불카드를 \n전화기 뒤에 대세요.</string>
+    <string name="extended_card_detail_title">확장 카드 정보</string>
+    <string name="card_representation_title">카드 대표</string>
+    <string name="extended_share">공유</string>
+    <string name="buy_pro_dialog"><![CDATA[
+        무료 버전으로는 한 번에 한 카드만 읽고 보관할 수 있습니다, 이전에 읽은 카드는 삭제됩니다.<br/><br/>
+        <b><u>프로 버전</u></b><br/><br/>
+        \u2022 다수의 카드 읽기<br/>
+        \u2022 카드 저장<br/>
+        \u2022 읽기 앱<br/>
+        \u2022 트랙 1&amp;amp;2 데이터<br/>
+        \u2022 기록 확장<br/>
+        \u2022 데이터 내보내기
+    ]]></string>
+    <string name="buy_pro_button">프로 버전</string>
+
+    <string name="extended_title_AID">카드 AID :</string>
+    <string name="extended_title_application_label">앱:</string>
+    <string name="extended_title_pin_try">왼쪽 핀 시도:</string>
+    <string name="extended_title_card_type">카드 종류 :</string>
+    <string name="extended_card_holder_name">카도 소지자 이름:</string>
+    <string name="extended_title_possible_bank">카드 발행사:\n(가능할 경우)</string>
+    <string name="extended_title_times">시간</string>
+    <string name="extended_track2_title">트랙 2</string>
+    <string name="extended_track2_expire">만료일:</string>
+    <string name="extended_track2_card_number">카드 번호 :</string>
+    <string name="extended_track2_card_service">서비스 :</string>
+    <string name="extended_track1_title">트랙 1</string>
+    <string name="extended_track1_format">형식 :</string>
+    <string name="extended_application_title">앱</string>
+    <string name="extended_application_number">앱 번호:</string>
+    <string name="extended_application_AID">AID :</string>
+    <string name="extended_application_priority">우선 순위 :</string>
+    <string name="extended_application_label">레이블 :</string>
+    <string name="extended_application_transaction">거래 카운터 :</string>
+    <string name="extended_application_pin_try">왼쪽 핀 시도:</string>
+
+    <!-- Transaction -->
+    <string name="transaction_empty">카드에서 거래 기록을\n제공하지 않습니다</string>
+
+    <!-- Transaction detail -->
+    <string name="transaction_type">거래 종류 :</string>
+    <string name="transaction_cryptogram">암호문 :</string>
+    <string name="transaction_country">터미널 국가 :</string>
+    <string name="transaction_time">거래 시간 :</string>
+    <string name="transaction_unknown">알 수 없음</string>
+
+    <!-- Transaction type -->
+    <string name="transaction_type_0">구매</string>
+    <string name="transaction_type_1">현금 서비스</string>
+    <string name="transaction_type_9">캐쉬백</string>
+    <string name="transaction_type_32">환불</string>
+    <string name="transaction_type_254">로드됨</string>
+    <string name="transaction_type_255">로드되지 않음</string>
+
+    <!-- Logs -->
+    <string name="mail_subject">[EMV Reader] 로그 보고서</string>
+    <string name="mail_popup_title">로그 보내기</string>
+    <string name="mail_to">android\@julien-millau.fr</string>
+    <string name="log_dialog_cancel">취소</string>
+    <string name="log_dialog_ok">확인</string>
+    <string name="log_dialog">디코딩된 데이터를 보려면 기부를 부탁드립니다.</string>
+
+
+    <!-- About -->
+    <string name="about_app_detail">이 앱은 EMV 규범을 준수하는 은행 NFC 카드의 공용 데이터를 읽도록 만들어졌습니다.</string>
+    <string name="about_source_detail"><![CDATA[소스 코드 및 문서는 다음에서 볼 수 있습니다 <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. 앱 제작자: <a href="http://julien-millau.fr">Julien Millau</a> ]]></string>
+    <string name="about_inapp_text">기부로 이 앱을 개선할 수 있게 도와주십시오.</string>
+    <string name="donation_thanks">기부해 주셔서 감사합니다.</string>
+    <string name="about_pro_app">여러 장의 카드를 읽고, 더 많은 데이터를 추출하고, 트랙 1/2 데이터를 내보낼 수 있습니다...</string>
+    <string name="about_title">정보</string>
+    <string name="about_inApp">기부</string>
+
+    <!-- Navigation drawable -->
+    <string name="navigation_menu_open">네비게이션 메뉴 열기</string>
+    <string name="navigation_menu_close">네비게이션 메뉴 닫기</string>
+    <string name="navigation_card_details">카드 세부사항</string>
+    <string name="navigation_settings">설정</string>
+    <string name="navigation_about">정보</string>
+
+    <!-- App rating  -->
+    <string name="dialog_text">잠시 시간을 내어 이 앱을 평가해 주십시오. 지원해 주셔서 감사합니다!</string>
+    <string name="dialog_header">이 앱 평가</string>
+    <string name="rate">예</string>
+    <string name="no">아니요</string>
+    <string name="dontask">다시 묻지 않음</string>
+
+    <!-- Preferences -->
+    <string name="storage_category">저장</string>
+    <string name="appearance_category">외관</string>
+    <string name="pref_remove_all_stored_cards">저장된 데이터를 제거</string>
+    <string name="pref_hide_card_number">카드 번호 숨기기</string>
+    <string name="pref_hide_card_number_on">카드 번호 숨겨짐</string>
+    <string name="pref_hide_card_number_off">카드 번호 표시됨</string>
+    <string name="pref_expend_logs">확장 로그 세부사항</string>
+    <string name="pref_expend_logs_on">로그 세부사항 확장</string>
+    <string name="pref_expend_logs_off">로그 세부사항 숨겨짐</string>
+    <string name="general_category">일반</string>
+    <string name="pref_nfc_listener_title">NFC로 앱 실행</string>
+    <string name="pref_nfc_listener_on">실행 활성화</string>
+    <string name="pref_nfc_listener_off">실행 비활성화</string>
+
+    <string name="compatibility_mode">읽기가 실패하면 호환성 모드로\n다시 시도하십시오(설정&gt;리더 모드).</string>
+    <string name="reader_mode_category">NFC 리더 모드</string>
+    <string name="pref_activate_old_mode">호환성 모드 활성화</string>
+    <string name="pref_activate_old_mode_on">호환성 모드 활성화됨</string>
+    <string name="pref_activate_old_mode_off">호환성 모드 비활성화됨</string>
+
+    <string name="feedback_text">피드백을 보내거나 문제 신고</string>
+    <string name="improve_translation_text">번역 개선</string>
+
+    <string name="about_myapp_title">무료 앱</string>
+    <string name="about_myapp_currency_title">통화 환전</string>
+    <string name="about_myapp_currency_desc">180개 이상의 통화, 실시간 환율, 오프라인...</string>
+    <string name="about_myapp_currency_download">무료 \n다운로드</string>
+
+</resources>

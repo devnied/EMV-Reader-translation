@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Credit Card Reader</string>
+    <string name="app_name_pro">Credit Card Reader Pro</string>
+    <string name="activity_name">Credit Card Reader</string>
+
+    <!-- Msg -->
+    <string name="billing_success">Thanks for your donation !</string>
+    <string name="card_read">Card read</string>
+    <string name="card_reading">Reading in progress&#8230;</string>
+    <string name="card_deleted">Card data deleted</string>
+    <string name="card_reading_desc">Please do not remove or move card during reading.</string>
+    <string name="nfc_locked">NFC is locked on your card or card not activated</string>
+    <string name="msg_nfc_available">This device doesn\'t have NFC which is required to run this application.</string>
+    <string name="msg_nfc_disable">Please enable NFC and press back to return to this application.</string>
+    <string name="msg_activate_nfc">OK</string>
+    <string name="msg_info">Info</string>
+    <string name="donate_banner">Help us to improve this free app, donate !</string>
+
+    <!-- Error -->
+    <string name="error_communication_nfc">Please do not move card, try again !</string>
+    <string name="error_card_unknown">Card not currently supported</string>
+    <string name="error_link">No web browser found</string>
+    <string name="error_email">No email client found</string>
+
+    <!-- Tabs -->
+    <string name="viewpager_carddetail">Card detail</string>
+    <string name="viewpager_transactions">Transactions</string>
+    <string name="viewpager_log">Log</string>
+
+    <!-- Card Detail -->
+    <string name="paycard_back_text">Hold your NFC paycard \n to the back of your phone</string>
+    <string name="extended_card_detail_title">Extended card details</string>
+    <string name="card_representation_title">Card Representation</string>
+    <string name="extended_share">Share</string>
+    <string name="buy_pro_dialog">
+        <![CDATA[
+        With the free version you can only read and keep one card at a time, the previous read card has been removed.<br /><br />
+        <b><u>Pro version</u></b><br /><br />
+         \u2022 Read multiple cards<br />
+         \u2022 Store cards<br />
+         \u2022 Read applications<br />
+         \u2022 Track 1&amp;2 data<br />
+         \u2022 Extended history<br />
+         \u2022 Export data
+         ]]>
+    </string>
+    <string name="buy_pro_button">Pro version</string>
+
+    <string name="extended_title_AID">Card AID :</string>
+    <string name="extended_title_application_label">Application :</string>
+    <string name="extended_title_pin_try">Pin try left :</string>
+    <string name="extended_title_card_type">Card type :</string>
+    <string name="extended_card_holder_name">Holder name :</string>
+    <string name="extended_title_possible_bank">Card issuer :\n(possible)</string>
+    <string name="extended_title_times">Time(s)</string>
+    <string name="extended_track2_title">Track 2</string>
+    <string name="extended_track2_expire">Expire date :</string>
+    <string name="extended_track2_card_number">Card number :</string>
+    <string name="extended_track2_card_service">Service :</string>
+    <string name="extended_track1_title">Track 1</string>
+    <string name="extended_track1_format">Format :</string>
+    <string name="extended_application_title">Application</string>
+    <string name="extended_application_number">Application number :</string>
+    <string name="extended_application_AID">AID :</string>
+    <string name="extended_application_priority">Priority :</string>
+    <string name="extended_application_label">Label :</string>
+    <string name="extended_application_transaction">Transaction Counter :</string>
+    <string name="extended_application_pin_try">Pin try left :</string>
+
+    <!-- Transaction -->
+    <string name="transaction_empty">Your card doesn\'t provide\ntransaction history</string>
+
+    <!-- Transaction detail -->
+    <string name="transaction_type">Transaction type :</string>
+    <string name="transaction_cryptogram">Cryptogram :</string>
+    <string name="transaction_country">Terminal Country :</string>
+    <string name="transaction_time">Transaction Time :</string>
+    <string name="transaction_unknown">Unknown</string>
+
+    <!-- Transaction type -->
+    <string name="transaction_type_0">Purchase</string>
+    <string name="transaction_type_1">Cash advance</string>
+    <string name="transaction_type_9">Cash back</string>
+    <string name="transaction_type_32">Refund</string>
+    <string name="transaction_type_254">Loaded</string>
+    <string name="transaction_type_255">Unloaded</string>
+
+    <!-- Logs -->
+    <string name="mail_subject">[EMV Reader] Log report</string>
+    <string name="mail_popup_title">Send logs</string>
+    <string name="mail_to">android@julien-millau.fr</string>
+    <string name="log_dialog_cancel">Cancel</string>
+    <string name="log_dialog_ok">Ok</string>
+    <string name="log_dialog">To see decoded data please make a donation</string>
+
+
+    <!-- About -->
+    <string name="about_app_detail">This app was made to read public data on banking NFC cards compliants with EMV norm.</string>
+    <string name="about_source_detail"><![CDATA[Source Code and documentation available on <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Application written by <a href="http://julien-millau.fr">Julien Millau</a>]]></string>
+    <string name="about_inapp_text">Help us to improve this app with donation</string>
+    <string name="donation_thanks">Thanks for your donation</string>
+    <string name="about_pro_app">Read multiple cards, Extract more data, Export track 1/2 data, ...</string>
+    <string name="about_title">About</string>
+    <string name="about_inApp">Donate</string>
+
+    <!-- Navigation drawable -->
+    <string name="navigation_menu_open">Navigation menu open</string>
+    <string name="navigation_menu_close">Navigation menu close</string>
+    <string name="navigation_card_details">Cards details</string>
+    <string name="navigation_settings">Settings</string>
+    <string name="navigation_about">About</string>
+
+    <!-- App rating  -->
+    <string name="dialog_text">Please take a moment to rate this app. Thanks for your support!</string>
+    <string name="dialog_header">Rate this app</string>
+    <string name="rate">Yes</string>
+    <string name="no">No</string>
+    <string name="dontask">Do not ask again</string>
+
+    <!-- Preferences -->
+    <string name="storage_category">Storage</string>
+    <string name="appearance_category">Appearance</string>
+    <string name="pref_remove_all_stored_cards">Remove stored data</string>
+    <string name="pref_hide_card_number">Hide card number</string>
+    <string name="pref_hide_card_number_on">Card number hidden</string>
+    <string name="pref_hide_card_number_off">Card number displayed</string>
+    <string name="pref_expend_logs">Extended log detail</string>
+    <string name="pref_expend_logs_on">Log detail extended</string>
+    <string name="pref_expend_logs_off">Log detail hidden</string>
+    <string name="general_category">General</string>
+    <string name="pref_nfc_listener_title">Launch app with NFC</string>
+    <string name="pref_nfc_listener_on">Launch enabled</string>
+    <string name="pref_nfc_listener_off">Launch disabled</string>
+
+    <string name="compatibility_mode">Please try the compatibility mode when\nreading fail (Settings > Reader Mode)</string>
+    <string name="reader_mode_category">NFC reader mode</string>
+    <string name="pref_activate_old_mode">Activate compatibility mode</string>
+    <string name="pref_activate_old_mode_on">Compatibility mode activated</string>
+    <string name="pref_activate_old_mode_off">Compatibility mode disabled</string>
+
+    <string name="feedback_text">Send feedback or report issues</string>
+    <string name="improve_translation_text">Improve translation</string>
+
+    <string name="about_myapp_title">Our free apps</string>
+    <string name="about_myapp_currency_title">Currency converter</string>
+    <string name="about_myapp_currency_desc">180+ currencies, live rates, offline ...</string>
+    <string name="about_myapp_currency_download">Free\ndownload</string>
+
+</resources>

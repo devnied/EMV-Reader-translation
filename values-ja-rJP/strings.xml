@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?><resources>
+    <string name="app_name">クレジットカードリーダー</string>
+    <string name="app_name_pro">クレジットカードリーダープロ</string>
+    <string name="activity_name">クレジットカードリーダー</string>
+
+    <!-- Msg -->
+    <string name="billing_success">ご寄付をありがとう！</string>
+    <string name="card_read">カード読み取り</string>
+    <string name="card_reading">読み取り中です・・・。</string>
+    <string name="card_deleted">カードのデータを削除します</string>
+    <string name="card_reading_desc">読み出し時にカードを取り外したり、移動したりしないでください。</string>
+    <string name="nfc_locked">NFCがカードにロックされているか、またはカードが使用できる状態ではありません</string>
+    <string name="msg_nfc_available">このデバイスは、このアプリケーションを実行するために必要なNFがありません。</string>
+    <string name="msg_nfc_disable">NFCを有効にして、このアプリケーションに戻るもどるため「back」を押してください。</string>
+    <string name="msg_activate_nfc">OK</string>
+    <string name="msg_info">インフォメーション</string>
+    <string name="donate_banner">この無料アプリの向上のためにご寄付をお願いします！</string>
+
+    <!-- Error -->
+    <string name="error_communication_nfc">カードを移動しないでください。再度行ってください！</string>
+    <string name="error_card_unknown">カードは現在サポートされていません</string>
+    <string name="error_link">ウェブブラウザが見つかりません</string>
+    <string name="error_email">電子メールクライアントが見つかりません</string>
+
+    <!-- Tabs -->
+    <string name="viewpager_carddetail">カードの詳細</string>
+    <string name="viewpager_transactions">処理</string>
+    <string name="viewpager_log">ログ</string>
+
+    <!-- Card Detail -->
+    <string name="paycard_back_text">お使いの携帯電話の背面にNFC paycardを保持します</string>
+    <string name="extended_card_detail_title">拡張カードの詳細</string>
+    <string name="card_representation_title">カードの表示</string>
+    <string name="extended_share">シェア</string>
+    <string name="buy_pro_dialog"><![CDATA[
+        無料版では一度に一枚のカードの読み取りと保持だけができます。以前の読み込まれたカードは取り除かれています。<br/><br/>
+        <b><u>Pro版</u></b></br/><br/>
+        \u2022 複数のカードを読み込む<br/>
+        \u2022 カードを保存&lt<br/>
+        \u2022 アプリケーションを読み込み<br/>
+        \u2022 トラック1&amp;amp;2データ<br/>
+        \u2022 延長された履歴<br/>
+        \u2022 データをエクスポート
+        ]]></string>
+    <string name="buy_pro_button">Pro版</string>
+
+    <string name="extended_title_AID">カードAID：</string>
+    <string name="extended_title_application_label">出願</string>
+    <string name="extended_title_pin_try">Pin番号左を試してみてください。</string>
+    <string name="extended_title_card_type">カードの種類 ：</string>
+    <string name="extended_card_holder_name">所持者の名：</string>
+    <string name="extended_title_possible_bank">カードの発行者 ：\n（可能であれば）</string>
+    <string name="extended_title_times">時間（複数）</string>
+    <string name="extended_track2_title">トラック2</string>
+    <string name="extended_track2_expire">有効期限 ：</string>
+    <string name="extended_track2_card_number">カード番号 ：</string>
+    <string name="extended_track2_card_service">サービス：</string>
+    <string name="extended_track1_title">トラック1</string>
+    <string name="extended_track1_format">フォーマット ：</string>
+    <string name="extended_application_title">出願</string>
+    <string name="extended_application_number">出願番号 ：</string>
+    <string name="extended_application_AID">AID：</string>
+    <string name="extended_application_priority">優先 ：</string>
+    <string name="extended_application_label">レーベル：</string>
+    <string name="extended_application_transaction">処理カウンタ：</string>
+    <string name="extended_application_pin_try">Pin番号左を試してください</string>
+
+    <!-- Transaction -->
+    <string name="transaction_empty">あなたのカードは取引履歴を表示しません</string>
+
+    <!-- Transaction detail -->
+    <string name="transaction_type">処理タイプ</string>
+    <string name="transaction_cryptogram">暗号文：</string>
+    <string name="transaction_country">ターミナル国：</string>
+    <string name="transaction_time">処理時間：</string>
+    <string name="transaction_unknown">未知</string>
+
+    <!-- Transaction type -->
+    <string name="transaction_type_0">購入</string>
+    <string name="transaction_type_1">キャッシング</string>
+    <string name="transaction_type_9">キャッシュバック</string>
+    <string name="transaction_type_32">払い戻し</string>
+    <string name="transaction_type_254">ロードされました</string>
+    <string name="transaction_type_255">ロードされていません</string>
+
+    <!-- Logs -->
+    <string name="mail_subject">【EMVリーダー]ログレポート</string>
+    <string name="mail_popup_title">ログを送信</string>
+    <string name="mail_to">android\@julien-millau.fr</string>
+    <string name="log_dialog_cancel">キャンセル</string>
+    <string name="log_dialog_ok">OK</string>
+    <string name="log_dialog">解読されたデータを参照するには、寄付を行ってください</string>
+
+
+    <!-- About -->
+    <string name="about_app_detail">このアプリは、EMV標準に準拠したで銀行NFCカード上の公開データを読み取るために作成されました。</string>
+    <string name="about_source_detail"><![CDATA[ソースコードと文書は以下でご利用できます。<a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">GitHub</a>。 <a href="http://julien-millau.fr">Julien Milau</a>によってアプリケーションは書かれています]]></string>
+    <string name="about_inapp_text">このアプリの改善のためにご寄付をお願いします。</string>
+    <string name="donation_thanks">ご寄付をありがとうございます。</string>
+    <string name="about_pro_app">複数のカードを読み込み、より多くのデータを抽出、トラック1/2データえおエクスポート、...</string>
+    <string name="about_title">内容</string>
+    <string name="about_inApp">寄付</string>
+
+    <!-- Navigation drawable -->
+    <string name="navigation_menu_open">ナビゲーションメニュー開く</string>
+    <string name="navigation_menu_close">ナビゲーションメニュー閉じる</string>
+    <string name="navigation_card_details">カードの詳細</string>
+    <string name="navigation_settings">設定</string>
+    <string name="navigation_about">内容</string>
+
+    <!-- App rating  -->
+    <string name="dialog_text">このアプリを評価してください。ご協力ありがとうございました！</string>
+    <string name="dialog_header">このアプリを評価</string>
+    <string name="rate">はい</string>
+    <string name="no">いいえ</string>
+    <string name="dontask">二度と質問しないで</string>
+
+    <!-- Preferences -->
+    <string name="storage_category">ストレージ</string>
+    <string name="appearance_category">外観</string>
+    <string name="pref_remove_all_stored_cards">保存されたデータを削除</string>
+    <string name="pref_hide_card_number">カード番号を隠す</string>
+    <string name="pref_hide_card_number_on">カード番号は非表示</string>
+    <string name="pref_hide_card_number_off">カード番号は表示</string>
+    <string name="pref_expend_logs">拡張ログ詳細</string>
+    <string name="pref_expend_logs_on">ログ詳細延長</string>
+    <string name="pref_expend_logs_off">ログ詳細を隠す</string>
+    <string name="general_category">一般</string>
+    <string name="pref_nfc_listener_title">NFCでアプリを起動</string>
+    <string name="pref_nfc_listener_on">起動有効</string>
+    <string name="pref_nfc_listener_off">起動無効</string>
+
+    <string name="compatibility_mode">読み取りが失敗し阿t場合は互換モードをお試しください。\n（[設定]> [リーダーモード）</string>
+    <string name="reader_mode_category">NFCリーダモード</string>
+    <string name="pref_activate_old_mode">互換モードを有効にします</string>
+    <string name="pref_activate_old_mode_on">互換モードが有効</string>
+    <string name="pref_activate_old_mode_off">互換モードを無効</string>
+
+    <string name="feedback_text">フィードバックやレポートの問題を送信</string>
+    <string name="improve_translation_text">翻訳を改善します</string>
+
+    <string name="about_myapp_title">私たちの無料アプリ</string>
+    <string name="about_myapp_currency_title">通貨換算</string>
+    <string name="about_myapp_currency_desc">180以上の通貨、ライブ料金、オフライン...</string>
+    <string name="about_myapp_currency_download">フリー\nダウンロード</string>
+
+</resources>

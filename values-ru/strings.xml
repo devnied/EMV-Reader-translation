@@ -45,7 +45,7 @@
          \u2022 Экспорт данных
          ]]>
     </string>
-    <string name="buy_pro_button">Купить версию Pro</string>
+    <string name="buy_pro_button">версию Pro</string>
 
     <string name="extended_title_AID">AID карты:</string>
     <string name="extended_title_application_label">Приложение:</string>
@@ -97,8 +97,8 @@
 
     <!-- About -->
     <string name="about_app_detail">Это приложение считывает открытую информацию с NFC банковских карт, соответсвующих спецификации EMV.</string>
-    <string name="about_source_detail">Исходный код и документация доступны на <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Приложение создал <a href="http://julien-millau.fr">Жюльен Мийо</a>
-    \n\n Перевод на русский: Александр Кузьмин
+    <string name="about_source_detail"><![CDATA[Исходный код и документация доступны на <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Приложение создал <a href="http://julien-millau.fr">Жюльен Мийо</a>
+    \n\n Перевод на русский: Александр Кузьмин]]>
     </string>
     <string name="about_inapp_text">Помогите развитию приложения, сделайте пожертвование</string>
     <string name="donation_thanks">Спасибо за пожертвование</string>
@@ -144,5 +144,9 @@
 
     <string name="feedback_text">Обратная связь или отправка отчетов</string>
     <string name="improve_translation_text">Улучшить перевод</string>
+    <string name="about_myapp_currency_title">Currency converter</string>
+    <string name="about_myapp_title">Our other free apps</string>
+    <string name="about_myapp_currency_download">Free\ndownload</string>
+    <string name="about_myapp_currency_desc">180+ currencies, live rates, offline ...</string>
 
 </resources>

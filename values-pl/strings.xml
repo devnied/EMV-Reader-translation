@@ -45,7 +45,7 @@
          \u2022 Eksport danych
          ]]>
     </string>
-    <string name="buy_pro_button">Kup wersję Pro</string>
+    <string name="buy_pro_button">Wersję Pro</string>
 
     <string name="extended_title_AID">AID karty:</string>
     <string name="extended_title_application_label">Aplikacja :</string>
@@ -97,8 +97,8 @@
 
     <!-- About -->
     <string name="about_app_detail">Ta plikacja zostałą stworzona do odczytu publicznych danych z bankowych kart NFC zgodnych ze standardem EMV.</string>
-    <string name="about_source_detail">Kod źródłowy i dokumentacja jest dostępna na <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Aplikacja napisana przez <a href="http://julien-millau.fr">Julien Millau</a>
-      \n\nDziękuję Rafał Mania za tłumaczenia
+    <string name="about_source_detail"><![CDATA[Kod źródłowy i dokumentacja jest dostępna na <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Aplikacja napisana przez <a href="http://julien-millau.fr">Julien Millau</a>
+      \n\nDziękuję Rafał Mania za tłumaczenia]]>
     </string>
     <string name="about_inapp_text">Pomóż nam ulepszyć aplikację przekazując darowiznę</string>
     <string name="donation_thanks">Dziękuję za wsparcie</string>
@@ -144,5 +144,9 @@
 
     <string name="feedback_text">Wyślij opinię albo zgłoś problemy</string>
     <string name="improve_translation_text">Poprawić tłumaczenie</string>
+    <string name="about_myapp_currency_title">Currency converter</string>
+    <string name="about_myapp_title">Our other free apps</string>
+    <string name="about_myapp_currency_download">Free\ndownload</string>
+    <string name="about_myapp_currency_desc">180+ currencies, live rates, offline ...</string>
 
 </resources>
