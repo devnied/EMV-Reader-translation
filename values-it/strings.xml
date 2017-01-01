@@ -69,7 +69,7 @@
     <string name="extended_application_pin_try">Pin rimanenti :</string>
 
     <!-- Transaction -->
-    <string name="transaction_empty">La carte non forisce\nla cronologia delle transazioni</string>
+    <string name="transaction_empty">La carta non fornisce\nla cronologia delle transazioni </string>
 
     <!-- Transaction detail -->
     <string name="transaction_type">Tipo di transazione :</string>
