@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Scheckkarteleser</string>
-    <string name="app_name_pro">Scheckkarteleser Pro</string>
-    <string name="activity_name">Scheckkarteleser</string>
+    <string name="app_name">Scheckkartenleser</string>
+    <string name="app_name_pro">Scheckkartenleser Pro</string>
+    <string name="activity_name">Scheckkartenleser</string>
 
     <!-- Msg -->
     <string name="billing_success">Vielen Dank für Ihre Spende!</string>
     <string name="card_read">Karte einlesen</string>
     <string name="card_reading">Lesen im Gange&#8230;</string>
     <string name="card_deleted">Gespeicherte Kartendaten gelöscht</string>
-    <string name="card_reading_desc">Bitte entfernen oder bewegen sie die Karte während des Auslesevorgangs nicht.</string>
-    <string name="nfc_locked">NFC ist auf Ihrer Karte blockiert, oder inaktiv.</string>
+    <string name="card_reading_desc">Bitte entfernen oder bewegen Sie die Karte während des Auslesevorgangs nicht.</string>
+    <string name="nfc_locked">NFC ist auf Ihrer Karte blockiert oder inaktiv.</string>
     <string name="msg_nfc_available">Dieses Gerät hat keine NFC-Unterstützung, die für diese App erforderlich ist.</string>
-    <string name="msg_nfc_disable">Bitte aktivieren sie NFC in den Einstellungen und rufen die App erneut auf.</string>
+    <string name="msg_nfc_disable">Bitte aktivieren Sie NFC in den Einstellungen und rufen die App erneut auf.</string>
     <string name="msg_activate_nfc">OK</string>
     <string name="msg_info">Info</string>
-    <string name="donate_banner">Helfen Sie uns mit Ihrer Spende, die App besser zu machen !</string>
+    <string name="donate_banner">Helfen Sie uns mit Ihrer Spende, die App zu verbessern!</string>
 
     <!-- Error -->
-    <string name="error_communication_nfc">Bitte die Karte nicht bewegen und es erneut versuchen !</string>
+    <string name="error_communication_nfc">Bitte die Karte nicht bewegen und es erneut versuchen.</string>
     <string name="error_card_unknown">Kartentyp aktuell noch nicht unterstützt</string>
-    <string name="error_link">Kein Web Browser gefunden</string>
-    <string name="error_email">Kein E-mail Client gefunden</string>
+    <string name="error_link">Kein Webbrowser gefunden</string>
+    <string name="error_email">Kein E-Mail-Client gefunden</string>
 
     <!-- Tabs -->
     <string name="viewpager_carddetail">Detailinformationen</string>
@@ -35,25 +35,25 @@
     <string name="extended_share">Teilen</string>
     <string name="buy_pro_dialog">
         <![CDATA[
-        Die kostenlose Version erlaubt nur das Seichern von Daten einer Karte zur gleichen Zeit. Die vorherigen Kartendaten wurden entfernt <br /><br />
-        <b><u>Pro version</u></b><br /><br />
-         \u2022 Auslesen von mehreren Karten<br />
+        Die kostenlose Version erlaubt nur das Speichern der Daten einer Karte zur Zeit. Die vorherigen Kartendaten wurden entfernt.<br /><br />
+        <b><u>Pro-Version</u></b><br /><br />
+         \u2022 Auslesen mehrerer Karten<br />
          \u2022 Speichern von Kartendaten<br />
          \u2022 Anwendungen auslesen<br />
          \u2022 Track 1&2 Daten<br />
          \u2022 Erweiterte Historie<br />
-         \u2022 Daten Exportieren
+         \u2022 Daten exportieren
          ]]>
     </string>
     <string name="buy_pro_button">Pro-Version </string>
 
-    <string name="extended_title_AID">Karte AID :</string>
+    <string name="extended_title_AID">Karte AID:</string>
     <string name="extended_title_application_label">Verwendung:</string>
-    <string name="extended_title_pin_try">Verbleibende der PIN-Eingabe:</string>
+    <string name="extended_title_pin_try">Verbleibende Versuche der PIN-Eingabe:</string>
     <string name="extended_title_card_type">Kartentyp:</string>
     <string name="extended_card_holder_name">Besitzername:</string>
     <string name="extended_title_possible_bank">freiwillige:\n(Angabe)</string>
-    <string name="extended_title_times">Mal(s)</string>
+    <string name="extended_title_times">Mal</string>
     <string name="extended_track2_title">Track 2</string>
     <string name="extended_track2_expire">Ablaufdatum:</string>
     <string name="extended_track2_card_number">Kartennummer:</string>
@@ -66,10 +66,10 @@
     <string name="extended_application_priority">Priorität:</string>
     <string name="extended_application_label">Label:</string>
     <string name="extended_application_transaction">Transaktionszähler:</string>
-    <string name="extended_application_pin_try">Verbleibende der PIN-Eingabe:</string>
+    <string name="extended_application_pin_try">Verbleibende Versuche der PIN-Eingabe:</string>
 
     <!-- Transaction -->
-    <string name="transaction_empty">Ihre Karte \'t speicher \nkeine Transaktionshistorie</string>
+    <string name="transaction_empty">Ihre Karte speichert\nkeine Transaktionshistorie</string>
 
     <!-- Transaction detail -->
     <string name="transaction_type">Transaktionstyp:</string>
@@ -100,7 +100,7 @@
     <string name="about_source_detail"><![CDATA[Quellcode ist auf dem <a href="https://github.com/devnied/EMV-NFC-Paycard-Enrollment">Github</a>. Anwendung geschrieben von <a href="http://julien-millau.fr">Julien Millau</a>]]></string>
     <string name="about_inapp_text">Helfen Sie uns, diese App zu verbessern und spenden!</string>
     <string name="donation_thanks">Vielen Dank für Ihre Spende!</string>
-    <string name="about_pro_app">Auslesen von mehreren Karten, Erweiterte Historie, Track 1&amp;2 Daten, ...</string>
+    <string name="about_pro_app">Auslesen von mehreren Karten, erweiterte Historie, Track 1&amp;2 Daten, ...</string>
     <string name="about_title">Über</string>
     <string name="about_inApp">Spenden</string>
 
@@ -112,11 +112,11 @@
     <string name="navigation_about">Über</string>
 
     <!-- App rating  -->
-    <string name="dialog_text">Bitte nehmen Sie sich einen Moment zu Rate, die Dank dieser APP für Ihre Unterstützung!</string>
+    <string name="dialog_text">Bitte nehmen Sie sich einen Moment, um diese App zu bewerten. Vielen Dank für Ihre Unterstützung!</string>
     <string name="dialog_header">Bewerten Sie diese App</string>
     <string name="rate">Ja</string>
     <string name="no">Nein</string>
-    <string name="dontask">Frag nicht wieder</string>
+    <string name="dontask">Nicht wieder fragen</string>
 
     <!-- Preferences -->
     <string name="storage_category">Speicher</string>
@@ -134,7 +134,7 @@
     <string name="pref_nfc_listener_on">NFC-Autostart aktiviert</string>
     <string name="pref_nfc_listener_off">NFC-Autostart deaktiviert</string>
 
-    <string name="compatibility_mode">Versuchen Sie bitte den Kompatibilitätsmodus\nwenn das auslesen scheitert (Einstellungen > Auslesemodus)</string>
+    <string name="compatibility_mode">Versuchen Sie bitte den Kompatibilitätsmodus\nwenn das Auslesen scheitert (Einstellungen > NFC Auslesemodus)</string>
     <string name="reader_mode_category">NFC Auslesemodus</string>
     <string name="pref_activate_old_mode">Kompatibilitätsmodus aktivieren</string>
     <string name="pref_activate_old_mode_on">Kompatibilitätsmodus aktiviert</string>
@@ -142,7 +142,7 @@
 
     <string name="feedback_text">Senden Sie Feedback oder Bericht Ausgaben</string>
     <string name="improve_translation_text">Verbesserung der Übersetzung</string>
-    <string name="about_myapp_currency_download">Gratis\ndownload</string>
+    <string name="about_myapp_currency_download">Gratis-\ndownload</string>
     <string name="about_myapp_currency_title">Währungsrechner</string>
     <string name="about_myapp_title">Unsere kostenlose Apps</string>
     <string name="about_myapp_currency_desc">180+ Währungen, Live-Raten, offline ...</string>
