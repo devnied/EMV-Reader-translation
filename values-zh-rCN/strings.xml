@@ -25,7 +25,7 @@
 
     <!-- Tabs -->
     <string name="viewpager_carddetail">卡片详细信息</string>
-    <string name="viewpager_transactions">翻译</string>
+    <string name="viewpager_transactions">交易</string>
     <string name="viewpager_log">日志</string>
 
     <!-- Card Detail -->
